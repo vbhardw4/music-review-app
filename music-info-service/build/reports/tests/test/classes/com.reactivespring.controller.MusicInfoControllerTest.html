@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MusicInfoControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MusicInfoControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.reactivespring.controller.html">com.reactivespring.controller</a> &gt; MusicInfoControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.113s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">addMusicInfo()</td>
+<td class="success">0.204s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteMusicInfoById()</td>
+<td class="success">0.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllMusicInfo()</td>
+<td class="success">0.117s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getMusicInfoById()</td>
+<td class="success">0.050s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getMusicInfoById_NotFound()</td>
+<td class="success">0.059s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateMusicInfoById()</td>
+<td class="success">1.590s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateMusicInfoById_notFound()</td>
+<td class="success">0.047s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:49:00.883 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:49:00.894 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:49:00.956 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.reactivespring.controller.MusicInfoControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:49:01.036 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.reactivespring.controller.MusicInfoControllerTest], using SpringBootContextLoader
+16:49:01.047 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reactivespring.controller.MusicInfoControllerTest]: class path resource [com/reactivespring/controller/MusicInfoControllerTest-context.xml] does not exist
+16:49:01.051 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reactivespring.controller.MusicInfoControllerTest]: class path resource [com/reactivespring/controller/MusicInfoControllerTestContext.groovy] does not exist
+16:49:01.051 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.reactivespring.controller.MusicInfoControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:49:01.052 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reactivespring.controller.MusicInfoControllerTest]: MusicInfoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:49:01.400 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/vishalbhardwaj/Development/reactivespring-1/music-info-service/build/classes/java/main/com/reactivespring/MusicInfoServiceApplication.class]
+16:49:01.404 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reactivespring.MusicInfoServiceApplication for test class com.reactivespring.controller.MusicInfoControllerTest
+16:49:01.569 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.reactivespring.controller.MusicInfoControllerTest]: using defaults.
+16:49:01.570 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:49:01.582 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+16:49:01.591 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@363d0578, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6c9c00d9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@51e63b05, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@75fd29d4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2b35f4d6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2723b3a1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@477d9a53, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b52a8e1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5fc56419, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@65417afb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4e45cb02, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1e778b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@740f3e3d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1a7714e5]
+16:49:01.598 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@39a623a2 testClass = MusicInfoControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [ReactiveWebMergedContextConfiguration@1fe2d24d testClass = MusicInfoControllerTest, locations = '{}', classes = '{class com.reactivespring.MusicInfoServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@211d9751, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@ec54a5c9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@49e99520, [ImportsContextCustomizer@7f7116aa key = [org.springframework.boot.autoconfigure.security.oauth2.client.reactive.ReactiveOAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.reactive.ReactiveOAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7332303f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6c7e28fc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@366ddb08, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@4b027772, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@734fc70b], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false]], class annotated with @DirtiesContext [false] with mode [null].
+16:49:01.646 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@39a623a2 testClass = MusicInfoControllerTest, testInstance = com.reactivespring.controller.MusicInfoControllerTest@4d55e45b, testMethod = [null], testException = [null], mergedContextConfiguration = [ReactiveWebMergedContextConfiguration@1fe2d24d testClass = MusicInfoControllerTest, locations = '{}', classes = '{class com.reactivespring.MusicInfoServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@211d9751, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@ec54a5c9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@49e99520, [ImportsContextCustomizer@7f7116aa key = [org.springframework.boot.autoconfigure.security.oauth2.client.reactive.ReactiveOAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.reactive.ReactiveOAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7332303f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6c7e28fc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@366ddb08, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@4b027772, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@734fc70b], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]].
+16:49:01.793 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles [test]
+16:49:01.803 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-11-22 16:49:02.724  INFO 7406 --- [    Test worker] c.r.controller.MusicInfoControllerTest   : Starting MusicInfoControllerTest using Java 11.0.13 on Vishals-MacBook-Air.local with PID 7406 (started by vishalbhardwaj in /Users/vishalbhardwaj/Development/reactivespring-1/music-info-service)
+2021-11-22 16:49:02.728  INFO 7406 --- [    Test worker] c.r.controller.MusicInfoControllerTest   : The following profiles are active: test
+2021-11-22 16:49:04.572  INFO 7406 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-11-22 16:49:04.822  INFO 7406 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 242 ms. Found 1 Reactive MongoDB repository interfaces.
+2021-11-22 16:49:08.346  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : note: noprealloc may hurt performance in many applications
+2021-11-22 16:49:08.358  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.342-0500 I CONTROL  [main] machdep.cpu.extfeatures unavailable
+2021-11-22 16:49:08.358  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.349-0500 I CONTROL  [initandlisten] MongoDB starting : pid=7409 port=54274 dbpath=/var/folders/ty/sswkhcvn13d29kj9g6v0zdvr0000gn/T/embedmongo-db-7b282eda-4721-4f62-baef-30714934bd41 64-bit host=Vishals-MacBook-Air.local
+2021-11-22 16:49:08.358  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.349-0500 I CONTROL  [initandlisten] db version v3.5.5
+2021-11-22 16:49:08.358  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.349-0500 I CONTROL  [initandlisten] git version: 98515c812b6fa893613f063dae568ff8319cbfbd
+2021-11-22 16:49:08.359  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.349-0500 I CONTROL  [initandlisten] allocator: system
+2021-11-22 16:49:08.359  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.349-0500 I CONTROL  [initandlisten] modules: none
+2021-11-22 16:49:08.359  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.349-0500 I CONTROL  [initandlisten] build environment:
+2021-11-22 16:49:08.359  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.349-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2021-11-22 16:49:08.359  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.349-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-11-22 16:49:08.359  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.350-0500 I CONTROL  [initandlisten] options: { net: { bindIp: &quot;127.0.0.1&quot;, http: { enabled: false }, port: 54274 }, security: { authorization: &quot;disabled&quot; }, storage: { dbPath: &quot;/var/folders/ty/sswkhcvn13d29kj9g6v0zdvr0000gn/T/embedmongo-db-7b282eda-4721-4f62-baef-30714934bd41&quot;, journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+2021-11-22 16:49:08.360  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.351-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3584M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),,log=(enabled=false),
+2021-11-22 16:49:08.720  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.719-0500 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+2021-11-22 16:49:08.720  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.719-0500 I CONTROL  [initandlisten] 
+2021-11-22 16:49:08.720  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.719-0500 I CONTROL  [initandlisten] ** NOTE: This is a development version (3.5.5) of MongoDB.
+2021-11-22 16:49:08.721  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.719-0500 I CONTROL  [initandlisten] **       Not recommended for production.
+2021-11-22 16:49:08.721  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.719-0500 I CONTROL  [initandlisten] 
+2021-11-22 16:49:08.873  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:08.872-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/folders/ty/sswkhcvn13d29kj9g6v0zdvr0000gn/T/embedmongo-db-7b282eda-4721-4f62-baef-30714934bd41/diagnostic.data'
+2021-11-22 16:49:09.101  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:09.101-0500 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: &quot;incompatible_with_version_32&quot;, ns: &quot;admin.system.version&quot; }
+2021-11-22 16:49:09.102  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:09.101-0500 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2021-11-22 16:49:09.121  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:09.121-0500 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2021-11-22 16:49:09.123  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:09.121-0500 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2021-11-22 16:49:09.123  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:09.122-0500 I NETWORK  [thread1] waiting for connections on port 54274
+2021-11-22 16:49:09.125  INFO 7406 --- [    Test worker] d.f.embed.mongo.MongodExecutable         : start MongodConfig{version=Version{3.5.5}, timeout=de.flapdoodle.embed.mongo.config.Timeout@1e84915, net=de.flapdoodle.embed.mongo.config.Net@47559bb5, cmdOptions=MongoCmdOptions{syncDelay=0, useDefaultSyncDelay=false, isVerbose=false, useNoPrealloc=true, useSmallFiles=true, useNoJournal=true, enableTextSearch=false, auth=false, master=false}, password=, userName=, replication=de.flapdoodle.embed.mongo.config.Storage@67cf4cc2, isConfigServer=false, isShardServer=false, processListener=de.flapdoodle.embed.mongo.config.processlistener.NoopProcessListener@57409e8e, params={}, args={}, pidFile=mongod.pid, supportConfig=de.flapdoodle.embed.mongo.config.SupportConfig@14a3d592}
+2021-11-22 16:49:09.258  INFO 7406 --- [    Test worker] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:54274], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-11-22 16:49:09.483  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:09.482-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:54284 #1 (1 connection now open)
+2021-11-22 16:49:09.491  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:09.483-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:54286 #2 (2 connections now open)
+2021-11-22 16:49:09.628  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:09.626-0500 I NETWORK  [conn1] received client metadata from 127.0.0.1:54284 conn1: { driver: { name: &quot;mongo-java-driver|reactive-streams|spring-boot&quot;, version: &quot;4.2.3&quot; }, os: { type: &quot;Darwin&quot;, name: &quot;Mac OS X&quot;, architecture: &quot;x86_64&quot;, version: &quot;11.3.1&quot; }, platform: &quot;Java/Eclipse Adoptium/11.0.13+8&quot; }
+2021-11-22 16:49:09.630  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:09.626-0500 I NETWORK  [conn2] received client metadata from 127.0.0.1:54286 conn2: { driver: { name: &quot;mongo-java-driver|reactive-streams|spring-boot&quot;, version: &quot;4.2.3&quot; }, os: { type: &quot;Darwin&quot;, name: &quot;Mac OS X&quot;, architecture: &quot;x86_64&quot;, version: &quot;11.3.1&quot; }, platform: &quot;Java/Eclipse Adoptium/11.0.13+8&quot; }
+2021-11-22 16:49:09.701  INFO 7406 --- [localhost:54274] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:54274
+2021-11-22 16:49:09.701  INFO 7406 --- [localhost:54274] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:54274
+2021-11-22 16:49:09.709  INFO 7406 --- [localhost:54274] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:54274, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=166039833}
+2021-11-22 16:49:11.825  INFO 7406 --- [    Test worker] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 54287
+2021-11-22 16:49:11.850  INFO 7406 --- [    Test worker] c.r.controller.MusicInfoControllerTest   : Started MusicInfoControllerTest in 10.039 seconds (JVM running for 12.722)
+2021-11-22 16:49:12.581  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:12.573-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:54288 #3 (3 connections now open)
+2021-11-22 16:49:12.595  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:12.594-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:54289 #4 (4 connections now open)
+2021-11-22 16:49:12.619  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:12.618-0500 I NETWORK  [conn3] received client metadata from 127.0.0.1:54288 conn3: { driver: { name: &quot;mongo-java-driver|reactive-streams|spring-boot&quot;, version: &quot;4.2.3&quot; }, os: { type: &quot;Darwin&quot;, name: &quot;Mac OS X&quot;, architecture: &quot;x86_64&quot;, version: &quot;11.3.1&quot; }, platform: &quot;Java/Eclipse Adoptium/11.0.13+8&quot; }
+2021-11-22 16:49:12.620  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:12.620-0500 I NETWORK  [conn4] received client metadata from 127.0.0.1:54289 conn4: { driver: { name: &quot;mongo-java-driver|reactive-streams|spring-boot&quot;, version: &quot;4.2.3&quot; }, os: { type: &quot;Darwin&quot;, name: &quot;Mac OS X&quot;, architecture: &quot;x86_64&quot;, version: &quot;11.3.1&quot; }, platform: &quot;Java/Eclipse Adoptium/11.0.13+8&quot; }
+2021-11-22 16:49:12.647  INFO 7406 --- [ntLoopGroup-3-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:3}] to localhost:54274
+2021-11-22 16:49:12.647  INFO 7406 --- [ntLoopGroup-3-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:4}] to localhost:54274
+2021-11-22 16:49:12.658  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:12.656-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:54290 #5 (5 connections now open)
+2021-11-22 16:49:12.662  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:12.662-0500 I NETWORK  [conn5] received client metadata from 127.0.0.1:54290 conn5: { driver: { name: &quot;mongo-java-driver|reactive-streams|spring-boot&quot;, version: &quot;4.2.3&quot; }, os: { type: &quot;Darwin&quot;, name: &quot;Mac OS X&quot;, architecture: &quot;x86_64&quot;, version: &quot;11.3.1&quot; }, platform: &quot;Java/Eclipse Adoptium/11.0.13+8&quot; }
+2021-11-22 16:49:12.677  INFO 7406 --- [ntLoopGroup-3-5] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:5}] to localhost:54274
+2021-11-22 16:49:12.843  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:12.842-0500 I COMMAND  [conn4] command test.musicInfo command: insert { insert: &quot;musicInfo&quot;, ordered: true, documents: [ { _id: ObjectId('619c10584a55b51e7a6af2aa'), name: &quot;The Dark Knight&quot;, year: 2008, cast: [ &quot;Christian Bale&quot;, &quot;HeathLedger&quot; ], releaseDate: new Date(1216353600000), _class: &quot;com.reactivespring.domain.MusicInfo&quot; } ] } ninserted:1 keysInserted:1 numYields:0 reslen:44 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { w: 1 }, acquireWaitCount: { w: 1 }, timeAcquiringMicros: { w: 132147 } }, Collection: { acquireCount: { w: 1 } } } protocol:op_query 132ms
+2021-11-22 16:49:12.843  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:12.842-0500 I COMMAND  [conn3] command test.musicInfo command: insert { insert: &quot;musicInfo&quot;, ordered: true, documents: [ { _id: ObjectId('619c10584a55b51e7a6af2a9'), name: &quot;Batman Begins&quot;, year: 2005, cast: [ &quot;Christian Bale&quot;, &quot;Michael Cane&quot; ], releaseDate: new Date(1118808000000), _class: &quot;com.reactivespring.domain.MusicInfo&quot; } ] } ninserted:1 keysInserted:1 numYields:0 reslen:44 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { w: 1 }, acquireWaitCount: { w: 1 }, timeAcquiringMicros: { w: 132163 } }, Collection: { acquireCount: { w: 1 } } } protocol:op_query 132ms
+2021-11-22 16:49:12.843  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:12.842-0500 I WRITE    [conn5] update test.musicInfo query: { _id: &quot;abc&quot; } planSummary: IDHACK update: { _id: &quot;abc&quot;, name: &quot;Dark Knight Rises&quot;, year: 2012, cast: [ &quot;Christian Bale&quot;, &quot;Tom Hardy&quot; ], releaseDate: new Date(1342756800000), _class: &quot;com.reactivespring.domain.MusicInfo&quot; } keysExamined:0 docsExamined:0 nMatched:0 nModified:0 upsert:1 keysInserted:1 numYields:0 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } 150ms
+2021-11-22 16:49:12.844  INFO 7406 --- [       Thread-5] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-11-22T16:49:12.842-0500 I COMMAND  [conn5] command test.$cmd command: update { update: &quot;musicInfo&quot;, ordered: true, updates: [ { q: { _id: &quot;abc&quot; }, u: { _id: &quot;abc&quot;, name: &quot;Dark Knight Rises&quot;, year: 2012, cast: [ &quot;Christian Bale&quot;, &quot;Tom Hardy&quot; ], releaseDate: new Date(1342756800000), _class: &quot;com.reactivespring.domain.MusicInfo&quot; }, upsert: true } ] } numYields:0 reslen:106 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 151ms
+2021-11-22 16:49:13.185  INFO 7406 --- [     parallel-1] reactor.Mono.SwitchIfEmpty.1             : onSubscribe(FluxSwitchIfEmpty.SwitchIfEmptySubscriber)
+2021-11-22 16:49:13.187  INFO 7406 --- [     parallel-1] reactor.Mono.SwitchIfEmpty.1             : request(unbounded)
+2021-11-22 16:49:13.292  INFO 7406 --- [ntLoopGroup-3-5] reactor.Mono.SwitchIfEmpty.1             : onNext(&lt;200 OK OK,MusicInfo(musicInfoId=abc, name=Dark Knight Rises Updated, year=2012, cast=[Christian Bale, Tom Hardy], releaseDate=2012-07-20),[]&gt;)
+2021-11-22 16:49:13.407  INFO 7406 --- [ntLoopGroup-3-5] reactor.Mono.SwitchIfEmpty.1             : onComplete()
+2021-11-22 16:49:13.654  INFO 7406 --- [     parallel-3] reactor.Mono.SwitchIfEmpty.2             : onSubscribe(FluxSwitchIfEmpty.SwitchIfEmptySubscriber)
+2021-11-22 16:49:13.660  INFO 7406 --- [     parallel-3] reactor.Mono.SwitchIfEmpty.2             : request(unbounded)
+2021-11-22 16:49:13.667  INFO 7406 --- [ntLoopGroup-3-5] reactor.Mono.SwitchIfEmpty.2             : onNext(&lt;404 NOT_FOUND Not Found,[]&gt;)
+2021-11-22 16:49:13.670  INFO 7406 --- [ntLoopGroup-3-5] reactor.Mono.SwitchIfEmpty.2             : onComplete()
+2021-11-22 16:49:13.916  INFO 7406 --- [     parallel-5] reactor.Mono.SwitchIfEmpty.3             : onSubscribe(FluxSwitchIfEmpty.SwitchIfEmptySubscriber)
+2021-11-22 16:49:13.917  INFO 7406 --- [     parallel-5] reactor.Mono.SwitchIfEmpty.3             : request(unbounded)
+2021-11-22 16:49:13.925  INFO 7406 --- [ntLoopGroup-3-4] reactor.Mono.SwitchIfEmpty.3             : onNext(&lt;404 NOT_FOUND Not Found,[]&gt;)
+2021-11-22 16:49:13.928  INFO 7406 --- [ntLoopGroup-3-4] reactor.Mono.SwitchIfEmpty.3             : onComplete()
+2021-11-22 16:49:13.967  INFO 7406 --- [     parallel-6] reactor.Mono.SwitchIfEmpty.4             : onSubscribe(FluxSwitchIfEmpty.SwitchIfEmptySubscriber)
+2021-11-22 16:49:13.967  INFO 7406 --- [     parallel-6] reactor.Mono.SwitchIfEmpty.4             : request(unbounded)
+2021-11-22 16:49:13.979  INFO 7406 --- [ntLoopGroup-3-5] reactor.Mono.SwitchIfEmpty.4             : onNext(&lt;200 OK OK,MusicInfo(musicInfoId=abc, name=Dark Knight Rises, year=2012, cast=[Christian Bale, Tom Hardy], releaseDate=2012-07-20),[]&gt;)
+2021-11-22 16:49:13.981  INFO 7406 --- [ntLoopGroup-3-5] reactor.Mono.SwitchIfEmpty.4             : onComplete()
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at Nov. 22, 2021, 4:49:18 p.m.</p>
+</div>
+</div>
+</body>
+</html>

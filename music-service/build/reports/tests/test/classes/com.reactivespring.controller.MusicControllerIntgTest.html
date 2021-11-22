@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MusicControllerIntgTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MusicControllerIntgTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.reactivespring.controller.html">com.reactivespring.controller</a> &gt; MusicControllerIntgTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.555s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">retrieveMusicById_500()</td>
+<td class="success">4.555s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>17:03:44.517 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:03:44.530 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:03:44.609 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.reactivespring.controller.MusicControllerIntgTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:03:44.632 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.reactivespring.controller.MusicControllerIntgTest], using SpringBootContextLoader
+17:03:44.645 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reactivespring.controller.MusicControllerIntgTest]: class path resource [com/reactivespring/controller/MusicControllerIntgTest-context.xml] does not exist
+17:03:44.646 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reactivespring.controller.MusicControllerIntgTest]: class path resource [com/reactivespring/controller/MusicControllerIntgTestContext.groovy] does not exist
+17:03:44.647 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.reactivespring.controller.MusicControllerIntgTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:03:44.649 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reactivespring.controller.MusicControllerIntgTest]: MusicControllerIntgTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:03:44.928 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/vishalbhardwaj/Development/reactivespring-1/music-service/build/classes/java/main/com/reactivespring/MusicServiceApplication.class]
+17:03:44.933 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reactivespring.MusicServiceApplication for test class com.reactivespring.controller.MusicControllerIntgTest
+17:03:45.167 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.reactivespring.controller.MusicControllerIntgTest]: using defaults.
+17:03:45.170 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.cloud.contract.stubrunner.provider.wiremock.StubRunnerWireMockTestExecutionListener, org.springframework.cloud.contract.wiremock.WireMockTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:03:45.189 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+17:03:45.193 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+17:03:45.194 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+17:03:45.194 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@268a19ed, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2ef637c3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1c0d6d85, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@48e4a1e9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e578c69, org.springframework.test.context.event.EventPublishingTestExecutionListener@2100ec4f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5616ccaf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3b10c46d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@39a623a2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1fe2d24d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7f7116aa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@427f9685, org.springframework.cloud.contract.stubrunner.provider.wiremock.StubRunnerWireMockTestExecutionListener@4acc065b, org.springframework.cloud.contract.wiremock.WireMockTestExecutionListener@43b5d5f5]
+17:03:45.207 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5eac15a4 testClass = MusicControllerIntgTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [ReactiveWebMergedContextConfiguration@69118be7 testClass = MusicControllerIntgTest, locations = '{}', classes = '{class com.reactivespring.MusicServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{restClient.musicInfoUrl= http://localhost:8084/v1/musicInfo, restClient.reviewsUrl = http://localhost:8084/v1/reviews, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2d920177, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@8c3459c2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@204fbd0e, [ImportsContextCustomizer@2064fe7c key = [org.springframework.boot.autoconfigure.security.oauth2.client.reactive.ReactiveOAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.reactive.ReactiveOAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration, org.springframework.cloud.contract.wiremock.WireMockConfiguration, org.springframework.cloud.contract.wiremock.WireMockRestTemplateConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7a3effec, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@315d922b, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2fe20caf, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@164301bc, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4abc9a00], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false]], class annotated with @DirtiesContext [false] with mode [null].
+17:03:45.292 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles [test]
+17:03:45.297 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, restClient.musicInfoUrl= http://localhost:8084/v1/musicInfo, restClient.reviewsUrl = http://localhost:8084/v1/reviews, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-11-22 17:03:46.060  INFO 7475 --- [    Test worker] c.r.controller.MusicControllerIntgTest   : Starting MusicControllerIntgTest using Java 11.0.13 on Vishals-MacBook-Air.local with PID 7475 (started by vishalbhardwaj in /Users/vishalbhardwaj/Development/reactivespring-1/music-service)
+2021-11-22 17:03:46.063  INFO 7475 --- [    Test worker] c.r.controller.MusicControllerIntgTest   : The following profiles are active: test
+2021-11-22 17:03:51.678  INFO 7475 --- [    Test worker] wiremock.org.eclipse.jetty.util.log      : Logging initialized @9090ms to wiremock.org.eclipse.jetty.util.log.Slf4jLog
+2021-11-22 17:03:52.216  INFO 7475 --- [    Test worker] w.org.eclipse.jetty.server.Server        : jetty-9.4.30.v20200611; built: 2020-06-11T12:34:51.929Z; git: 271836e4c1f4612f12b7bb13ef5a92a927634b0d; jvm 11.0.13+8
+2021-11-22 17:03:52.241  INFO 7475 --- [    Test worker] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@321655de{/__admin,null,AVAILABLE}
+2021-11-22 17:03:52.244  INFO 7475 --- [    Test worker] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@320dae0e{/,null,AVAILABLE}
+2021-11-22 17:03:52.260  INFO 7475 --- [    Test worker] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@10e49ae{HTTP/1.1, (http/1.1)}{0.0.0.0:8084}
+2021-11-22 17:03:52.270  INFO 7475 --- [    Test worker] w.o.e.jetty.util.ssl.SslContextFactory   : x509=X509@1d0a11b2(wiremock,h=[],w=[]) for Server@1439114e[provider=Conscrypt,keyStore=null,trustStore=null]
+2021-11-22 17:03:52.276  INFO 7475 --- [    Test worker] w.o.e.jetty.util.ssl.SslContextFactory   : Unable to get KeyManagerFactory instance for algorithm [SunX509] on provider [Conscrypt], using default
+2021-11-22 17:03:52.321  INFO 7475 --- [    Test worker] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@f6624da{SSL, (ssl, alpn, h2, http/1.1)}{0.0.0.0:14242}
+2021-11-22 17:03:52.322  INFO 7475 --- [    Test worker] w.org.eclipse.jetty.server.Server        : Started @9735ms
+2021-11-22 17:03:53.812  INFO 7475 --- [    Test worker] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 54381
+2021-11-22 17:03:53.838  INFO 7475 --- [    Test worker] c.r.controller.MusicControllerIntgTest   : Started MusicControllerIntgTest in 8.535 seconds (JVM running for 11.251)
+2021-11-22 17:03:54.651  INFO 7475 --- [     parallel-1] reactor.Mono.RetryWhen.1                 : onSubscribe(SerializedSubscriber)
+2021-11-22 17:03:54.655  INFO 7475 --- [     parallel-1] reactor.Mono.Log.2                       : onSubscribe(FluxPeek.PeekSubscriber)
+2021-11-22 17:03:54.659  INFO 7475 --- [     parallel-1] reactor.Mono.Log.2                       : request(unbounded)
+2021-11-22 17:03:54.659  INFO 7475 --- [     parallel-1] reactor.Mono.RetryWhen.1                 : request(unbounded)
+2021-11-22 17:03:54.940  INFO 7475 --- [tp1368378377-43] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2021-11-22 17:03:55.214  INFO 7475 --- [tp1368378377-43] WireMock                                 : Request received:
+127.0.0.1 - GET /v1/musicInfo/abc
+
+Accept: [*/*]
+User-Agent: [ReactorNetty/1.0.9]
+Host: [localhost:8084]
+Accept-Encoding: [gzip]
+
+
+
+Matched response definition:
+{
+  &quot;status&quot; : 500,
+  &quot;body&quot; : &quot;MusicInfo Service is not available&quot;
+}
+
+Response:
+HTTP/1.1 500
+Matched-Stub-Id: [cec3df8e-0653-485e-96a0-ea5ac42c12fa]
+
+
+2021-11-22 17:03:55.248 ERROR 7475 --- [ctor-http-nio-3] c.r.client.MusicInfoRestClient           : 5XX server error reported  
+2021-11-22 17:03:56.285  INFO 7475 --- [tp1368378377-29] WireMock                                 : Request received:
+127.0.0.1 - GET /v1/musicInfo/abc
+
+Accept: [*/*]
+User-Agent: [ReactorNetty/1.0.9]
+Host: [localhost:8084]
+Accept-Encoding: [gzip]
+
+
+
+Matched response definition:
+{
+  &quot;status&quot; : 500,
+  &quot;body&quot; : &quot;MusicInfo Service is not available&quot;
+}
+
+Response:
+HTTP/1.1 500
+Matched-Stub-Id: [cec3df8e-0653-485e-96a0-ea5ac42c12fa]
+
+
+2021-11-22 17:03:56.288 ERROR 7475 --- [ctor-http-nio-3] c.r.client.MusicInfoRestClient           : 5XX server error reported  
+2021-11-22 17:03:57.311  INFO 7475 --- [tp1368378377-41] WireMock                                 : Request received:
+127.0.0.1 - GET /v1/musicInfo/abc
+
+Accept: [*/*]
+User-Agent: [ReactorNetty/1.0.9]
+Host: [localhost:8084]
+Accept-Encoding: [gzip]
+
+
+
+Matched response definition:
+{
+  &quot;status&quot; : 500,
+  &quot;body&quot; : &quot;MusicInfo Service is not available&quot;
+}
+
+Response:
+HTTP/1.1 500
+Matched-Stub-Id: [cec3df8e-0653-485e-96a0-ea5ac42c12fa]
+
+
+2021-11-22 17:03:57.314 ERROR 7475 --- [ctor-http-nio-3] c.r.client.MusicInfoRestClient           : 5XX server error reported  
+2021-11-22 17:03:58.324  INFO 7475 --- [tp1368378377-43] WireMock                                 : Request received:
+127.0.0.1 - GET /v1/musicInfo/abc
+
+Accept: [*/*]
+User-Agent: [ReactorNetty/1.0.9]
+Host: [localhost:8084]
+Accept-Encoding: [gzip]
+
+
+
+Matched response definition:
+{
+  &quot;status&quot; : 500,
+  &quot;body&quot; : &quot;MusicInfo Service is not available&quot;
+}
+
+Response:
+HTTP/1.1 500
+Matched-Stub-Id: [cec3df8e-0653-485e-96a0-ea5ac42c12fa]
+
+
+2021-11-22 17:03:58.327 ERROR 7475 --- [ctor-http-nio-3] c.r.client.MusicInfoRestClient           : 5XX server error reported  
+2021-11-22 17:03:58.331 ERROR 7475 --- [ctor-http-nio-3] reactor.Mono.RetryWhen.1                 : onError(reactor.core.Exceptions$RetryExhaustedException: Retries exhausted: 3/3)
+2021-11-22 17:03:58.337 ERROR 7475 --- [ctor-http-nio-3] reactor.Mono.RetryWhen.1                 : 
+
+reactor.core.Exceptions$RetryExhaustedException: Retries exhausted: 3/3
+	at reactor.core.Exceptions.retryExhausted(Exceptions.java:290) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.util.retry.RetryBackoffSpec.lambda$static$0(RetryBackoffSpec.java:67) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.util.retry.RetryBackoffSpec.lambda$generateCompanion$4(RetryBackoffSpec.java:557) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:375) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onError(Operators.java:2063) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onError(FluxOnAssembly.java:393) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onError(MonoFlatMap.java:172) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:270) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:227) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2058) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onComplete(FluxMapFuseable.java:150) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:398) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:684) ~[reactor-netty-http-1.0.9.jar:1.0.9]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: com.reactivespring.exceptions.MusicInfoServerException: Internal Server Error while calling music info
+	at com.reactivespring.client.MusicInfoRestClient.lambda$retrieveMusicInfo$3(MusicInfoRestClient.java:47) ~[main/:na]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ 500 from GET http://localhost:8084/v1/musicInfo/abc [DefaultWebClient]
+Stack trace:
+		at com.reactivespring.client.MusicInfoRestClient.lambda$retrieveMusicInfo$3(MusicInfoRestClient.java:47) ~[main/:na]
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec$StatusHandler.apply(DefaultWebClient.java:693) ~[spring-webflux-5.3.9.jar:5.3.9]
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.applyStatusHandlers(DefaultWebClient.java:652) ~[spring-webflux-5.3.9.jar:5.3.9]
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.handleBodyMono(DefaultWebClient.java:621) ~[spring-webflux-5.3.9.jar:5.3.9]
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.lambda$bodyToMono$2(DefaultWebClient.java:541) ~[spring-webflux-5.3.9.jar:5.3.9]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2398) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onSubscribeInner(MonoFlatMapMany.java:150) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onNext(MonoFlatMapMany.java:189) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.SerializedSubscriber.onNext(SerializedSubscriber.java:99) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onNext(FluxRetryWhen.java:174) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.success(MonoCreate.java:160) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.netty.http.client.HttpClientConnect$HttpIOHandlerObserver.onStateChange(HttpClientConnect.java:414) ~[reactor-netty-http-1.0.9.jar:1.0.9]
+		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:654) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onStateChange(DefaultPooledConnectionProvider.java:201) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnection.onStateChange(DefaultPooledConnectionProvider.java:457) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:628) ~[reactor-netty-http-1.0.9.jar:1.0.9]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:311) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:432) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+		at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-22 17:03:58.354 ERROR 7475 --- [ctor-http-nio-3] reactor.Mono.Log.2                       : onError(reactor.core.Exceptions$RetryExhaustedException: Retries exhausted: 3/3)
+2021-11-22 17:03:58.358 ERROR 7475 --- [ctor-http-nio-3] reactor.Mono.Log.2                       : 
+
+reactor.core.Exceptions$RetryExhaustedException: Retries exhausted: 3/3
+	at reactor.core.Exceptions.retryExhausted(Exceptions.java:290) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.util.retry.RetryBackoffSpec.lambda$static$0(RetryBackoffSpec.java:67) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.util.retry.RetryBackoffSpec.lambda$generateCompanion$4(RetryBackoffSpec.java:557) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:375) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:251) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.EmitterProcessor.drain(EmitterProcessor.java:491) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.EmitterProcessor.tryEmitNext(EmitterProcessor.java:299) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.SinkManySerialized.tryEmitNext(SinkManySerialized.java:100) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.InternalManySink.emitNext(InternalManySink.java:27) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:190) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onError(Operators.java:2063) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onError(FluxOnAssembly.java:393) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onError(MonoFlatMap.java:172) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:270) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:227) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2058) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:89) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onComplete(FluxMapFuseable.java:150) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:398) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) ~[reactor-core-3.4.8.jar:3.4.8]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:684) ~[reactor-netty-http-1.0.9.jar:1.0.9]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: com.reactivespring.exceptions.MusicInfoServerException: Internal Server Error while calling music info
+	at com.reactivespring.client.MusicInfoRestClient.lambda$retrieveMusicInfo$3(MusicInfoRestClient.java:47) ~[main/:na]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ 500 from GET http://localhost:8084/v1/musicInfo/abc [DefaultWebClient]
+Stack trace:
+		at com.reactivespring.client.MusicInfoRestClient.lambda$retrieveMusicInfo$3(MusicInfoRestClient.java:47) ~[main/:na]
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec$StatusHandler.apply(DefaultWebClient.java:693) ~[spring-webflux-5.3.9.jar:5.3.9]
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.applyStatusHandlers(DefaultWebClient.java:652) ~[spring-webflux-5.3.9.jar:5.3.9]
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.handleBodyMono(DefaultWebClient.java:621) ~[spring-webflux-5.3.9.jar:5.3.9]
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.lambda$bodyToMono$2(DefaultWebClient.java:541) ~[spring-webflux-5.3.9.jar:5.3.9]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2398) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onSubscribeInner(MonoFlatMapMany.java:150) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onNext(MonoFlatMapMany.java:189) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.SerializedSubscriber.onNext(SerializedSubscriber.java:99) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onNext(FluxRetryWhen.java:174) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.success(MonoCreate.java:160) ~[reactor-core-3.4.8.jar:3.4.8]
+		at reactor.netty.http.client.HttpClientConnect$HttpIOHandlerObserver.onStateChange(HttpClientConnect.java:414) ~[reactor-netty-http-1.0.9.jar:1.0.9]
+		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:654) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onStateChange(DefaultPooledConnectionProvider.java:201) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnection.onStateChange(DefaultPooledConnectionProvider.java:457) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:628) ~[reactor-netty-http-1.0.9.jar:1.0.9]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) ~[reactor-netty-core-1.0.9.jar:1.0.9]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:311) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:432) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276) ~[netty-codec-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) ~[netty-transport-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+		at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-22 17:03:58.475  WARN 7475 --- [    Test worker] o.s.c.c.w.WireMockTestExecutionListener  : You've used fixed ports for WireMock setup - will mark context as dirty. Please use random ports, as much as possible. Your tests will be faster and more reliable and this warning will go away
+2021-11-22 17:03:58.499  INFO 7475 --- [    Test worker] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@10e49ae{HTTP/1.1, (http/1.1)}{0.0.0.0:8084}
+2021-11-22 17:03:58.502  INFO 7475 --- [    Test worker] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@f6624da{SSL, (ssl, alpn, h2, http/1.1)}{0.0.0.0:14242}
+2021-11-22 17:03:58.506  INFO 7475 --- [    Test worker] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@320dae0e{/,null,UNAVAILABLE}
+2021-11-22 17:03:58.507  INFO 7475 --- [    Test worker] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@321655de{/__admin,null,UNAVAILABLE}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at Nov. 22, 2021, 5:04:01 p.m.</p>
+</div>
+</div>
+</body>
+</html>

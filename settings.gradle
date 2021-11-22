@@ -1,0 +1,5 @@
+rootProject.name = 'reactivespring-1'
+include 'music-info-service'
+include 'music-review-service'
+include 'music-service'
+
